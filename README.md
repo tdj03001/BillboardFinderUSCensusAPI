@@ -13,5 +13,5 @@ As students at UPenn, our development team is comprised of three individuals wit
 
  ![Screenshot](assets/images/billboardFinderScreenshot.png)
 
- #### Link to webapp:  https://dp95000.github.io/group-project-1/
+ #### Link to webapp:  https://dp95000.github.io/BillboardFinderUSCensusAPI/
 
