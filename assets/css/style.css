@@ -1,0 +1,74 @@
+/* Main CSS Custom Styles & Rules */
+
+header, footer {background-color: #333; color: #fff; with: 100%; font-family: 'Open Sans', sans-serif;}
+#logo {font-size: 1.5em; padding-top: .5em;}
+#content {font-family: 'Montserrat', sans-serif;}
+#content .container-fluid {padding-right: 0; padding-left: 0;}
+/*#content iframe {max-width: 100%;}*/
+footer {text-align: center; padding: 2em;}
+.right-side, .left-side {padding: 2em;}
+h1, h2, h3 {margin-bottom: 20px;}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 35%;
+  }
+
+form.example button {
+    width: 15%;
+    padding: 10px;
+    background: rgb(193, 198, 202);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+
+  .padfix {padding: 0;}
+  .demographics-table {
+    display: table;
+    width: 100%;
+    display: none;
+  }
+  .cell-output {
+    border: 1px solid black;
+    display: table-cell;
+  }
+
+  .bbicon {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+@media (min-width: 768px) {
+    #logo {font-size: 1.5em; padding-top: .5em;}
+    nav {padding-top: .5em;}
+    nav ul {list-style-type: none;}
+    nav ul li {
+        display: inline-block;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+    nav ul li a {
+        color: #fff;
+        border-right: 1px solid white;
+        padding-right: 2em;
+    }
+    nav ul li a:hover {text-decoration: none;}
+}
+
+@media (max-width: 767px) {
+    #logo {font-size: 1em; padding-top: .5em;}
+}
+
+#map{
+    height:400px;
+    width:100%;
+  }
